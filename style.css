@@ -106,8 +106,8 @@ Focuse Section css-----
     box-shadow: 5px 7px 20px #4657635e;
 }
 .mission-item:hover{
-     margin-left:10px;
-     margin-top: 10px;
+     margin-left: 5px;
+     margin-top:  5px;
     cursor: pointer;
 }
 #m-bg-1{
