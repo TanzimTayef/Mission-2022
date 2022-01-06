@@ -1,6 +1,8 @@
+/*-----Font family----- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;1,200;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;1,200;1,400&family=Signika+Negative:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:ital,wght@0,100;0,500;1,200;1,400&family=Signika+Negative:wght@300;400;600&display=swap');
+/* ----------- */
 *{
     margin: 0;
     padding: 0;
@@ -38,13 +40,14 @@ Focuse Section css-----
 .focuse-item h1{
     font-size: 50px;
     font-family: 'Signika Negative', sans-serif;
+    color: #0B1251;
 }
 .fo-title{
    display: flex;
 }
 .fo-color{
     border-left: 6px solid;
-    border-color: rgb(13, 136, 75);
+    border-color: #016427;
     border-image-slice: 1;
     margin: 10px;
     border-radius: 10px;
@@ -57,12 +60,8 @@ Focuse Section css-----
     padding: 25px 0;
     color: #555;
 }
-.focuse-item p a:hover{
-    text-decoration: underline;
-    color: orange;
-}
 .hero-btn{
-    background-color:  #067091;;
+    background: #1c5e72 ;
     color: #fff;
     padding: 10px 30px;
     border-radius: 5px;
@@ -71,7 +70,7 @@ Focuse Section css-----
     transition: .5s;
 }
 .hero-btn:hover{
-    background: #1c5e72 ;
+    background-color:  #067091;
     margin-left: 4px;
 }
 .focuse-item img{
@@ -92,6 +91,7 @@ Focuse Section css-----
     text-align: center;
     font-size: 50px;
     margin-bottom: 70px;
+    color:#0B1251;
 }
 .mission-content{
     display: flex;
@@ -157,6 +157,8 @@ Focuse Section css-----
 }
 .grow-item h2{
     font-size: 40px;
+    color:#0B1251;
+    font-weight: 700;
 }
 .grow-item p{
     padding: 20px 0;
@@ -176,7 +178,7 @@ Comunity Section------
 }
 .community-item img{
     width: 80%;
-    margin-left: 40%;
+    margin-left: 30%;
     border-radius: 10px;
 }
 .community-item{
@@ -185,6 +187,7 @@ Comunity Section------
 }
 .community-item h2{
     font-size: 40px;
+    color:#0B1251;
 }
 .community-item p{
     padding: 15px 0;
@@ -263,7 +266,10 @@ input:focus, textarea:focus, select:focus{
   background: rgba(70, 87, 99, 0.37);
   color: #fff;
 }
-
+.f-btn{
+   border: none;
+   cursor: pointer;
+}
 /*----------------
  ------fonter----- 
  -----------------*/
@@ -284,7 +290,9 @@ input:focus, textarea:focus, select:focus{
     font-size: 14px;
     padding: 10px;
 }
-/*---------------- */
+/* -------------------
+---------------------
+----------------------*/
 @media (max-width: 780px) {
     .focuse-content{
         flex-direction: column;
@@ -302,3 +310,4 @@ input:focus, textarea:focus, select:focus{
          flex-direction: column;
     }
  }
+ /* ---------========------------ */
